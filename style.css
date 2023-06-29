@@ -21,6 +21,7 @@ h1{
     flex: 1;
     border-radius: 20px;
     color: white;
+    height: 50vh;
 }
 .form td{
     padding: 7px;
@@ -46,7 +47,9 @@ h1{
     max-width: 60%;
     border-radius: 20px;
     width: 100%;
-    
+}
+#res td{
+    padding: 3px;
 }
 
 button{
