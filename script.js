@@ -1,7 +1,8 @@
+let resID = document.getElementById("res");
 let res = document.getElementById("resTable");
 const button = document.querySelector("button");
 button.addEventListener("click", (event) => {
-    res.style = "background: linear-gradient(120deg,#153677,#4e085f)";
+    resID.style = "background: linear-gradient(120deg,#153677,#4e085f)";
     //adding Name
 tr = document.createElement("tr");
 td1 = document.createElement("td");
